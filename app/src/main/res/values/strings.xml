@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Tys - Mobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"> Mobile</string>
+    <string name="nav_header_subtitle">enrique.rojas@ria.com.pe</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+
+
+    <string name="prompt_email">Nombre Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Acceder</string>
+    <string name="action_sign_in_short">TYS-Mobile</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">El password es incorrecto</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="forgot_account_text">¿Has olvidado tu contraseña?</string>
+    <string name="recovery_here_text">Recuperala</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="NombreCompleto">Nombre de Usuario</string>
+    <string name="mail">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_passwordconfirm">Confirmar Contraseña</string>
+    <string name="tex_button_createaccount">Únete</string>
+    <string name="text_tittle_toolbar">Crear Cuenta</string>
+    <string name="app_label">Buscar</string>
+    <string name="search_hint">bus</string>
+    <!-- Strings related to login -->
+
+    <string-array name="planets_array">
+        <item>Entrega conforme (OK)</item>
+        <item>Entrega: Con Mercaderia Dañada</item>
+        <item>Entrega: Con Mercaderia Faltante</item>
+        <item>Entrega: Rechazo Total</item>
+        <item>Entrega: Rechazo Parcial </item>
+        <item>No Entrega: Local Cerrado</item>
+        <item>No Entrega: No existe la dirección de entrega</item>
+    </string-array>
+</resources>

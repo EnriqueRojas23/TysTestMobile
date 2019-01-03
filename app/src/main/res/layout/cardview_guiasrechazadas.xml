@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guiaCard"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    cardview:cardCornerRadius="4dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorCardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/bottomBar"
+            android:orientation="horizontal"
+
+
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin">
+            <TextView
+                android:id="@+id/NumGuiaCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123-988855"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/CantidadCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:textSize="15sp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:textStyle="bold" />
+            <ImageButton
+                android:id="@+id/eliminarguia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCardView"
+                android:paddingLeft="@dimen/activity_horizontal_margin_extreme"
+                android:src="@drawable/icons8_basura_24"
+                android:layout_alignBottom="@+id/bottomBar"
+                android:layout_toRightOf="@id/CantidadCard"
+
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v7.widget.CardView>

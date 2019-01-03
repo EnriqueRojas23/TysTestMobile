@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_airport_shuttle"
+            android:title="OTs Pendientes" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_cloud_upload"
+            android:title="OTs en cola" />
+
+    </group>
+
+    <group
+            android:title="Sesión">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icons8_salida_500"
+                android:title="Cerrar Sesión" />
+
+        </menu>
+    </group>
+
+</menu>
